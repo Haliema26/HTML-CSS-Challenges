@@ -11,7 +11,7 @@ header {
   padding: 20px;
 }
 #logo {
-  border: unset;
+  border: unset; /* changing color border of logo*/
 }
 
 nav {
@@ -31,7 +31,7 @@ header ul li {
 
 section {
   padding: 5%;
-  background-color: #f8f0fb;
+  background-color: white;
 }
 
 img {
@@ -106,15 +106,16 @@ footer {
 #badge p {
   text-align: center;
   font-size: 125%;
+  line-height: 1.8; /* cahngeing the line space in the text */
 }
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #06216d; /* cahnging img border of bear*/
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top; /* cahnging img allign from bottom to top */
 }
 
 .tigers {
